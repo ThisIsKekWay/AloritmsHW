@@ -37,6 +37,16 @@ class LinkedList:
             temp = temp.next
         print('\n')
 
+    def findNum(self, num):
+        counter = 0
+        temp = self.head
+        while temp:
+            if counter == num - 1:
+                return temp.data
+            counter += 1
+            temp = temp.next
+
+
     def llMaker(self):
         for i in range(random.randint(6,11)):
             self.add(i)
@@ -44,6 +54,8 @@ class LinkedList:
 llist = LinkedList()
 llist.llMaker()
 
+num = int(input())
 llist.printLl()
 llist.reverse()
+print(llist.findNum(num))
 llist.printLl()
