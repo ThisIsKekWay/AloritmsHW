@@ -1,1 +1,1 @@
-print('Goodbye')
+print('default')
