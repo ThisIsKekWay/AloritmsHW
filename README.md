@@ -1,4 +1,4 @@
-# AloritmsHW + Deep Git Fantasies
+# AlgoritmsHW + Deep Git Fantasies
 
 Пояснения к домашнему заданию №2 курса углубленного гита
 
